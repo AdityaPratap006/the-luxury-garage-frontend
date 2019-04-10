@@ -158,7 +158,7 @@ class Book extends Component {
 	};
 
 	checkAvailability = (myBookingData) => {
-      if(this.state){
+      if(!this.state.plan || !this.state.location){
 				this.setState({modal:true,modal2:false});
 			}
 			else{
