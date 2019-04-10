@@ -1,0 +1,25 @@
+.fleetCard{
+	width: 22rem;
+	height:29rem;
+	background:#880e4f; 
+	margin-left: 2rem;
+}
+
+.fleetCard-img{
+	width: 20rem;
+	height:14rem;
+}
+
+.car-name{
+	color: #fff;
+	font-size: 1.5rem;
+	margin-top:-18px;
+	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px){
+	.fleetCard{
+		width: 18rem;
+
+	}
+}

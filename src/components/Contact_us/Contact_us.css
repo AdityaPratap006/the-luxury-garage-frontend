@@ -1,0 +1,111 @@
+.contact-us{
+	margin-top: 64px;
+	 
+	  padding-bottom: 2rem;
+	 
+}
+
+
+
+.contact-us h1{
+	font-size: 2.4rem;
+	padding-top: 3rem;
+	margin-bottom: 4rem;
+	color: #ffffff;
+}
+
+.contact-us p{
+	font-size: 1.2rem;
+	
+	
+}
+
+.contact-us h2{
+	font-size: 1.8rem;
+	
+	
+}
+
+
+
+.my-map{
+	box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+}
+
+
+.contact-us-row{
+	 
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 3rem;
+	color:#000000;
+}
+
+.contact-us-cardText{
+	 background: #880e4f;
+	 opacity: 0.98;
+	 color: #fff;
+	  box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	  padding-top: 1.8rem;
+	  height: 50vh;
+}
+
+hr{
+	border:1px solid #880e4f;
+	width: 80vw;
+}
+
+#bookRow{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.book-row-title{
+	font-size: 3rem;
+	margin: 0.4rem;
+}
+
+.center-btn{
+	width:18rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	font-size: 2.1rem;
+	background-color: #880e4f;
+	border:none;
+}
+
+.my-btn-div{
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen  and (max-width: 700px){
+	.contact-us{
+		margin-top:54px;
+	}
+
+	.my-map-col{
+		padding: 0;
+	}
+
+	#row2,#row4{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+
+	.contact-us-cardText{
+		box-shadow: none;
+
+	}
+
+	
+
+	.contact-us-row{
+		 box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	}
+
+}

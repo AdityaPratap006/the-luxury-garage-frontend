@@ -1,0 +1,66 @@
+.my-login{
+	margin-top: 64px;
+	color: #fff;
+	  
+}
+
+.register-link{
+		display: none;
+	}
+
+.my-login-form{
+	padding-bottom: 8rem;
+
+}
+
+.white{
+	 border-color: #fff;
+}
+
+
+
+.login,.register{
+
+	box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bgMyPurple{
+	background: #880e4f; 
+}
+.center-regLink-btn{
+	width:20rem;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+	font-size: 1.4rem;
+	background-color: #880e4f;
+	border:none;
+}
+.my-regbtn-div{
+	margin-top: 0rem;
+}
+
+.error-msg-div{
+	color:#ff0000;
+	background: #fff;
+	width:24rem;
+	padding: 0.5rem;
+	border:3px #f00 solid;
+}
+
+@media only screen and (max-width: 768px){
+	.my-login{
+		margin-top: 56px;
+	}
+
+	.error-msg-div{
+		 
+		width:20rem;
+		font-size: 1.5rem;
+		 
+	}
+
+	#register-form{
+		  
+		padding-top: 3rem;
+	}
+}

@@ -1,0 +1,80 @@
+.booking-page{
+	 
+	 margin-top: 6rem;
+}
+
+.bookPage-title{
+	font-size: 2.1rem;
+	 
+	margin-bottom: 2rem;
+	color:#fff;
+
+}
+
+.bookCard{
+	width:30rem;
+	background:#880e4f; 
+	margin-bottom: 3rem;
+}
+
+.bookCard-title{
+	margin-top: 0.7rem;
+	 color:#fff;
+}
+
+.bookCard-img{
+ 	width: 27rem;
+ 	height: 20rem;
+ 	 margin-top: 0.5rem;
+ 	 margin-bottom: 0.5rem;
+
+}
+
+.plans-panel{
+
+}
+
+.bookCard-btn{
+	background-color: #fff;
+	color:#880e4f;
+}
+
+.fleeCard-plan-btn{
+	width:7rem;
+	margin:1.5rem;
+	background-color: #fff;
+	color:#880e4f;
+	
+}
+
+.pay-btn {
+	width:14rem;
+	background-color: #fff;
+	color:#880e4f;
+	font-size: 1.4rem;
+	border:2px solid #880e4f;
+	margin-right: 5rem;
+}
+
+.pay-btn:hover {
+	 
+	background-color:#880e4f ;
+	color:#fff;
+	border:2px solid #fff;
+	 
+}
+
+@media only screen and (max-width: 770px){
+	.bookCard{
+		width:20rem;
+		
+	}
+
+	.bookCard-img{
+	 	width: 18rem;
+	 	height: 13.33rem;
+	 	 margin-top: 0.5rem;
+	 	 margin-bottom: 0.5rem;
+
+	}
+}

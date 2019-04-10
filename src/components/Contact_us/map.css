@@ -1,0 +1,47 @@
+.my-map{
+	height: '70vh' !important;
+	 width: '100%' !important;
+}
+
+.map-pointer{
+	
+	
+	
+	width: 20px;
+	height: 20px; 
+}
+.map-pointer-text{
+	font-size: 0.9rem !important;
+	padding: 0.4rem !important;
+	color: #880e4f; 
+}
+
+.pin {
+  width: 30px;
+  height: 30px;
+  border:10px solid #880e4f;
+  border-radius: 50% 50% 50% 0;
+  background: transparent;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+}
+/*.pin:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  margin: 8px 8px 0 8px;
+  background: #e6e6e6;
+  position: absolute;
+  border-radius: 50%;
+}*/
+
+
+@media only screen and (max-width: 770px){
+	.my-map{
+		height: '30vh' !important;
+		 width: '100%' !important;
+	}
+}

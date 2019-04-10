@@ -1,0 +1,113 @@
+.how-it-works{
+	margin-top: 64px;
+	 
+
+	 
+}
+
+.how-it-works h1{
+	font-size: 2.4rem;
+	padding-top: 3rem;
+	margin-bottom: 4rem;
+	color :#f0f0f0;
+}
+
+.How_it_works-img{
+	width:100%;
+	height:45vh;
+	margin-top: 0;
+	margin-bottom: 0;
+	 box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	 
+}
+
+
+.How_it_works-row{
+	 
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 3rem;
+	color:#000000;
+}
+
+.How_it_works-cardText{
+	 background: #880e4f;
+	 opacity: 0.98;
+	  box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	  padding-top: 1.8rem;
+	  color: #fff;
+}
+
+hr{
+	border:1px solid #880e4f;
+	width: 80vw;
+}
+
+#bookRow{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.book-row-title{
+	font-size: 3rem;
+	margin: 0.4rem;
+	color: #fff;
+
+}
+
+.center-btn{
+	width:18rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	font-size: 2.1rem;
+	background-color: #880e4f;
+	border:none;
+}
+
+.my-btn-div{
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen  and (max-width: 700px){
+	.how-it-works{
+		margin-top:54px;
+	}
+
+	.book-row-title{
+		font-size: 1.5rem;
+		margin: 1rem;
+		width:19rem;
+
+	}
+
+	.How_it_works-img{
+		width:83vw;
+		height:33vh;
+		  
+		box-shadow:  none;
+		 
+	}
+
+	.How_it_works-myImg{
+		padding: 0;
+	}
+
+
+	#row2{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+
+	.How_it_works-cardText{
+		box-shadow: none;
+	}
+
+	.How_it_works-row{
+		 box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	}
+
+}

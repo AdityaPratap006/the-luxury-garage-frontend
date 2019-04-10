@@ -1,0 +1,124 @@
+.car-info-page{
+	margin-top: 2rem;
+
+}
+
+.car-title{
+	font-size: 1.8rem;
+	color: #fff;
+	background:#880e4f;
+	padding: 0.5rem;
+	width:24rem;
+	border:2px solid #fff;
+	border-radius: 100px;
+	margin-top: 2rem;
+}
+
+.car-cover-img{
+	width:81vw;
+	height:auto;
+	border-radius: 100px;
+	border:2px solid #fff;
+}
+
+.car-description{
+	background:#880e4f;
+	color:#fff;
+	border-radius: 50px;
+	border:2px solid #fff;
+}
+
+.car-description p{
+	font-size: 1.2rem;
+}
+.car-description h3{
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+}
+
+ .gallery-title{
+ 	color:#880e4f;
+ 	font-size:1.8rem;
+ 	margin-top: 4rem;
+ }
+
+ .car-gallery-img{
+ 	width:81vw;
+	height:auto;
+	border-radius: 100px;
+	border:2px solid #fff;
+ }
+
+ .car-info-swiper{
+ 	 
+ 	width: 81vw;
+ 	margin-left: 0.4rem;
+ 	 
+ 	 
+ }
+
+ 
+ .car-back-btn{
+ 	margin-top: 2rem;
+ 	margin-bottom: 2rem;
+ }
+
+ .car-goback-btn{
+ 	margin-top: 1rem;
+ 	margin-bottom: 6rem;
+ }
+
+@media only screen and (max-width:768px){
+	.car-info-page{
+		margin-top: 56px;
+	}
+
+	.car-cover-img{
+		 border-radius: 50px;
+		height:36vh;
+		width:85vw;
+	}
+
+	.car-title{
+		font-size: 1.45rem;
+		 
+		 
+		width:15rem;
+	}
+
+	.car-description{
+	 	 
+		border-radius: 50px;
+		margin-bottom: 2rem;
+	}
+
+	.car-description h3{
+		width:10rem;
+		margin-top: 2rem;
+	}
+
+	.car-gallery-img{
+	 	border-radius: 50px;
+		height:36vh;
+		width:85vw;
+	 }
+  
+  .car-swipe-btn{
+  	width: 2rem;
+  	height:2rem;
+  }
+
+  .car-info-swiper{
+ 	 
+ 	width: 85vw;
+ 	height: 50vh;
+ 	margin-left: 0.8rem;
+ 	 
+ }
+
+ .gallery-title{
+ 	 
+ 	margin-top: 2rem;
+ }
+
+} 

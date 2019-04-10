@@ -1,0 +1,61 @@
+.fleet-page{
+	margin-top: 64px;
+}
+
+.fleet-title{
+	font-size: 2.4rem;
+	margin-top: 5rem;
+	color: #fff;
+}
+
+.fleet-sub-title{
+    font-size: 1.5rem;
+	margin-top: 2rem;
+	color: #fff;
+}
+
+.fleet-name{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.my-fleet-list{
+	margin-top: 3rem;
+}
+
+.fleet-card{
+	width:33rem ;
+	background: #880e4f;
+	opacity: 0.98;
+	box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) !important; 
+}
+.fleet-card-img{
+	width:28rem;
+	height:17rem;
+}
+
+.fleet-card-btn{
+	font-size: 1.8rem;
+	color: #fff;
+	background: transparent; 
+	border: 2px solid #fff;
+	box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); 
+}
+
+
+
+@media only screen and (max-width: 770px){
+	.fleet-page{
+		margin-top: 56px;
+	}
+
+	.fleet-card{
+		width:20rem ;
+		 
+	}
+
+	.fleet-card-img{
+		width:17rem;
+		height:10rem;
+	}
+}

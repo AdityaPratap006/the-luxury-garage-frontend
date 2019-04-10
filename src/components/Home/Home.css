@@ -1,0 +1,27 @@
+.home-page{
+	margin-top:64px;
+	
+}
+
+
+
+.my-card{
+	margin:20vh 5vw 5vh 5vw;
+	width:90vw;
+
+}
+
+#About{
+	margin-top: 30vh;
+}
+
+.my-card-title{
+	font-size: 3rem;
+}
+
+@media only screen and (max-width: 800px){
+	.home-page{
+		margin-top: 56px;
+		width:100%;
+	}
+}

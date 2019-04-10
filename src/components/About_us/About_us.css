@@ -1,0 +1,135 @@
+.AboutUs{
+	margin-top: 64px;
+	   
+ padding-bottom: 3rem;
+ /*background: url('./rolls-royce-ghost-dawn-wraith-phantom-cullinan-t4-1440x900.jpg'); 
+	background-attachment: fixed; 
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: auto;*/
+	 
+}
+
+.AboutUs h1{
+	font-size: 2.4rem;
+	padding-top: 3rem;
+	margin-bottom: 4rem;
+	color:#f0f0f0;
+}
+
+.AboutUs-img{
+	width:30vw;
+	height:45vh;
+	margin-top: 0;
+	margin-bottom: 0;
+	 box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	 
+}
+
+
+
+
+.AboutUs-row{
+	 
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 3rem;
+	color:#fff;
+}
+
+.AboutUs-cardText{
+	 /*background: #e0e0e0;*/
+	  box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	  padding-top: 1.8rem;
+	  padding-bottom: 1.8rem;
+	background: #880e4f;
+	 color: #fff; 
+	  opacity: 0.98;
+
+}
+.AboutUs-brands{
+	box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 1.8rem;
+	  padding-bottom: 1.8rem;
+	background: #fff ;
+	 color: #880e4f; 
+}
+
+.AboutUs-cardText h2{
+	 font-size: 1.8rem;
+}
+
+.AboutUs-cardText p{
+	 font-size: 1.2rem;
+}
+
+.AboutUs-brands h2{
+	font-size: 1.8rem;
+}
+
+.myDigits{
+	font-size: 6rem;
+}
+
+hr{
+	border:1px solid #880e4f;
+	width: 80vw;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+#bookRow{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.book-row-title{
+	font-size: 3rem;
+	margin: 0.4rem;
+}
+
+.center-btn{
+	width:18rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	font-size: 2.1rem;
+	background-color: #880e4f;
+	border:none;
+}
+
+.my-btn-div{
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen  and (max-width: 700px){
+	.AboutUs{
+	margin-top: 56px;
+	 
+}
+
+	.AboutUs-img{
+		width:83vw;
+		height:33vh;
+		margin-left: -4vw;
+		box-shadow:  none;
+		 
+	}
+
+	#row2{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+
+	.AboutUs-cardText{
+		box-shadow: none;
+	}
+
+	.AboutUs-row{
+		 box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	}
+
+}

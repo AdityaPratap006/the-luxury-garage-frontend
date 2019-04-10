@@ -1,0 +1,16 @@
+img{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	width:20vw;
+	height:50vh;
+	padding: -1rem;
+
+
+}
+@media screen only and (max-width: 800px){
+	img{
+		margin:0;
+		width:10vw;
+		height:5vh;
+	}
+}

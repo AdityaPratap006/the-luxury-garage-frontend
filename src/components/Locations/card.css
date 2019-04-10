@@ -1,0 +1,40 @@
+.city-name{
+	font-size: 1.8rem;
+	font-weight: 800;
+	padding-bottom: 1.2rem;
+	color: #fff;
+
+}
+
+p{
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.card-img{
+	margin-bottom: 2rem;
+	 height: 20rem;
+	 width: 22rem;
+}
+
+.my-card{
+	box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	width:22rem;
+	background:#880e4f; 
+	opacity: 0.98;
+
+}
+
+
+@media only screen and (max-width: 800px){
+	.my-card{
+		 
+		width:18rem;
+		 
+	}
+	.card-img{
+		width:100%;
+		height:15rem;
+		padding: -2rem;
+	}
+}
