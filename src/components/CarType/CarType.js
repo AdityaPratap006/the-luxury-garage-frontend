@@ -87,6 +87,29 @@ class CarType extends Component {
                      <Col xs='12' ><div className="center "> Scroll down to discover</div> </Col>
                      
                    </Row>):null;
+
+    let subcontent;
+
+    if(!renderedCarList.length){
+      subcontent = (
+                  <Row>
+                     <Col xs='12'   > 
+                         
+                        <h1>LOADING CARS...</h1>
+                        
+                     </Col>
+                   </Row> 
+        );
+    }
+    else{
+      subcontent=(<Row>
+                     <Col xs='12'   > 
+                         
+                         <CarList className='center' myCarList={renderedCarList} goToCar={this.goToCar} goBack={this.goBack}/>
+                        
+                     </Col>
+                   </Row>);
+    }
      
     
     if((this.state.currentPage === 'coupe'
@@ -107,13 +130,7 @@ class CarType extends Component {
                    </Row>
                    
                    
-                    <Row>
-                     <Col xs='12'   > 
-                         
-                         <CarList className='center' myCarList={renderedCarList} goToCar={this.goToCar} goBack={this.goBack}/>
-                        
-                     </Col>
-                   </Row>
+                    {subcontent}
                    <Row >
                     <Col xs='12' className="title-button-back">
                        
