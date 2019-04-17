@@ -4,11 +4,8 @@ import Slider from 'react-animated-slider';
 import './Carousel.css';
 import './CarouselAnimation.css';
 import horizontalCss from 'react-animated-slider/build/horizontal.css';
-import rrDawn from './img/2018_rolls-royce_dawn_black_badge_3_1600x1200.jpg';
-import lamHuracan from './img/2018_lamborghini_huracan_performante_36_1600x1200.jpg';
-//import bentFS from './img/2015_bentley_flying_spur_v8_3_1600x1200.jpg';
-import RRSva from './img/2016_range_rover_sv_autobiography_71_1600x1200.jpg';
-//import collage1 from './img/BeFunky-collage-1-mobile.jpg';
+
+
 
 
 
@@ -27,7 +24,7 @@ class SlideShow extends Component {
     description:'',
     button: 'Read More',
     buttonLink:'#',
-    image:lamHuracan,
+    image:'https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555481805/luxuryGarage/home/1.jpg',
     logoImg:'../Navbar/logo2.png',
     user: 'Luan Gjokaj',
     userProfile: 'https://i.imgur.com/JSW6mEk.png',
@@ -39,7 +36,7 @@ class SlideShow extends Component {
     '' ,
     button: 'Discover',
     buttonLink:'#',
-    image: rrDawn,
+    image:'https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555481805/luxuryGarage/home/2.jpg',
     logoImg:'../Navbar/logo2.png',
     user: 'Erich Behrens',
     userProfile: 'https://i.imgur.com/0Clfnu7.png',
@@ -51,7 +48,7 @@ class SlideShow extends Component {
     ' ',
     button: 'Buy now',
     buttonLink:'#',
-    image: RRSva,
+    image: 'https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555481805/luxuryGarage/home/3.jpg',
     logoImg:'../Navbar/logo2.png',
     user: 'Bruno Vizovskyy',
     userProfile: 'https://i.imgur.com/4KeKvtH.png',

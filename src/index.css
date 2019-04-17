@@ -20,7 +20,7 @@ body {
 }
 
 .my-bg-image1{
-  background: url('./components/About_us/rolls-royce-ghost-dawn-wraith-phantom-cullinan-t4-1440x900.jpg');
+  background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
@@ -28,7 +28,7 @@ body {
 }
 
 .my-bg-image2{
-  background: url('./components/How_it_works/bmw-i8-roadster-2018-488468.jpg');
+  background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center 33%;
@@ -36,7 +36,7 @@ body {
 }
 
 .my-bg-image3{
-  background: url('./components/Locations/lamborghini-huracan-evo-10k-2019-h9-1440x900.jpg');
+  background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center 84%;
@@ -45,7 +45,7 @@ body {
 
 .my-bg-image4{
 
-  background: url('./components/LoginRegister/2018_bentley_continental_supersports_5_1600x1200.jpg');
+  background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/4.jpg');
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +55,7 @@ body {
 
 .my-bg-image5{
   
-    background: url('./components/Contact_us/2019_maserati_ghibli_6_1600x1200.jpg');
+    background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center 40%;
@@ -64,7 +64,7 @@ body {
 
 .my-bg-image6{
   
-    background: url('./components/Fleet/2016_ferrari_488_gtb_5_1600x1200.jpg');
+    background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center 57% ;
@@ -82,7 +82,7 @@ body {
 
 .my-bg-image8{
   
-    background: url('./components/Account/2013_range_rover_42_1600x1200.jpg');
+    background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/8.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center 24% ;
@@ -91,7 +91,7 @@ body {
 
 .my-bg-image9{
   
-    background: url('./components/Book/lights_car_dark_128635_1920x1080.jpg');
+    background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center 30% ;
@@ -115,7 +115,7 @@ body {
     background-position: 90% center;
   }
   .my-bg-image6{
-    background: url('./components/Fleet/2010-ferrari-458-italia-7.jpg'); 
+    background: url('https://res.cloudinary.com/nit-jamshedpur/image/upload/q_18/v1555483717/luxuryGarage/backgrounds/6_mobile.jpg'); 
     background-position: 84% 40%;
     background-repeat: no-repeat;
   background-size: cover;
@@ -124,7 +124,7 @@ body {
 
   .my-bg-image8{
     
-      background:url('./components/Account/2013_range_rover_42_1600x1200.jpg');
+     
      
     background-position:30% center;
     background-repeat: no-repeat;

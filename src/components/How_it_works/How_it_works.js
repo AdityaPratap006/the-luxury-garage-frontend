@@ -4,7 +4,7 @@ import './How_it_work.css';
 import book from './img/2020_bmw_7-series_1_1600x1200.jpg';
 import pay from './img/payment.jpg';
 import deliver from './img/delv.jpg';
-import backgroundImage from './bmw-i8-roadster-2018-488468.jpg';
+
 
 
 
