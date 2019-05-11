@@ -15,7 +15,7 @@ class SimpleMap extends Component {
       // Important! Always set the container height explicitly
       <div style={{ height: '50vh', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key:'AIzaSyD0VIfdirE7CkcSjsWNWMpmP9loiXm1l4o'}}
+          bootstrapURLKeys={{ key:'YOUR GOOGLE MAPS API KEY'}}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
