@@ -10,7 +10,7 @@
     "get-google-fonts": "^1.1.1",
     "google-fonts": "^1.0.0",
     "google-map-react": "^1.1.2",
-    "knex": "^0.16.3",
+    "knex": "^0.19.5",
     "material-ui": "^1.0.0-beta.47",
     "moment": "^2.24.0",
     "pg": "^7.9.0",
